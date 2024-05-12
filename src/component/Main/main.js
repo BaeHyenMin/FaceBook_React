@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import homeImg from '../icon/home.png'
-const MainHeader = () => {
+const Main = () => {
     return(
         <header className="">
             <div className="form-control">
@@ -17,4 +17,4 @@ const MainHeader = () => {
     )
 }
 
-export default MainHeader
+export default Main
