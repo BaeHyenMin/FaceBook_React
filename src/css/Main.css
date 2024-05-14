@@ -1,0 +1,23 @@
+.mainHeader{
+    width : 100%;
+    padding : 5px;
+    box-sizing: border-box;
+    position : fixed;
+}
+
+.headerLeft{
+    width : 25%;
+}
+
+.headerLeft > img {
+    width : 10%;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.headerLeft > input {
+    width : 70%;
+    background-color: #eeee;
+    border-radius: 30px;
+    vertical-align: bottom;
+}
