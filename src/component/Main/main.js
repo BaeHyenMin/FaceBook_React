@@ -7,8 +7,8 @@ const Main = () => {
         <div className='flex flex-row mainHeader'>
             <div className='basis-1/4 headerLeft'>
                 <img src='http://localhost:5123/uploads/facebook_logo.png' alt='이미지없음' />
-                <span>
-                    <img src='http://localhost:5123/search.png' />
+                <span className='search-bar'>
+                    <img src='http://localhost:5123/uploads/search.png' />
                     <input type='text' placeholder='Facebook검색' />
                 </span>
             </div>
