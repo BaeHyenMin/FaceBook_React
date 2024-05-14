@@ -18,6 +18,7 @@ const Main = () => {
                 <li><img src='http://localhost:5123/uploads/facebook_page_before.png' alt='이미지없음' /></li>
                 <li><img src='http://localhost:5123/uploads/facebook_video_before.png' alt='이미지없음' /></li>
             </ul>
+            <div style={{clear:"both"}}></div>
             <ul className='basis-1/4 headerRight'>
                 <li><img src='http://localhost:5123/uploads/facebook_message.png' alt='이미지없음' /></li>
                 <li><img src='http://localhost:5123/uploads/facebook_base_profile.png' alt='이미지없음' /></li>
