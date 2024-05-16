@@ -1,12 +1,13 @@
-.mainHeader{
+.main{
     width : 100%;
-    padding : 5px;
     box-sizing: border-box;
     position : fixed;
 }
 
 .headerLeft{
+    width: 25%;
     float: left;
+    padding: 15px;
 }
 
 
@@ -34,7 +35,7 @@
 }
 
 .search-bar > input {
-    width: 252px;
+    width: 150px;
     height: 22px;
     background-color: #eeee;
 }
@@ -43,16 +44,44 @@
 
 
 .headerCenter{
-    width: 500px;
+    width: 55%;
     float: left;
+    text-align: center;
 }
 
 .headerCenter > li{
     display: inline-block;
-    padding: 25px;
+    padding: 15px;
+    margin-top: 13px;
+    margin-right: 70px;
 }
 
+
+
 .headerCenter > li > img{
-    width: 25px;
+    width: 27px;
     height: 25px;
 }
+
+.headerCenter > li :nth-last-child(1){
+    margin-right: 0px;
+}
+
+
+.headerRight{
+    width: 20%;
+    float: right;
+    text-align: right;
+}
+
+.headerRight > li{
+    display: inline-block;
+    padding: 15px;
+    margin-top: 8px;
+}
+
+.headerRight > li > img{
+    width: 30px;
+    height: 30px;
+}
+
