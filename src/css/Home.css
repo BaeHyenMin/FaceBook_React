@@ -6,8 +6,10 @@
 
 .card-container{
     margin: 0 auto;
+    margin-bottom: 30px;
     width: 630px;
     background-color: white;
+    border: 1px solid #eeee;
     border-radius: 5px;
     padding: 10px;
 }
