@@ -30,7 +30,7 @@ const Main = () => {
                         <p>여기가 제목 들어갈듯?</p>
                     </div>
                     <div style={{ clear: "both" }}></div>
-                    <p className='content'>계단이 있는 줄 몰랐어요</p>
+                    <p className='content'>계단이 있는 줄 몰랐어요계단이 있는 줄 몰랐어요계단이 있는 줄 몰랐어요계단이 있는 줄 몰랐어요계단이 있는 줄 몰랐어요계단이 있는 줄 몰랐어요</p>
                     <video controls loop className='video-container'>
                         <source src="http://localhost:5123/uploads/testvideo.mp4" type="video/mp4" />
                     </video>
