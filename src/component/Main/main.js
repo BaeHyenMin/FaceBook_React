@@ -25,6 +25,10 @@ const Main = () => {
             <div style={{ clear: "both" }}></div>
             <section className='home'>
                 <div className='card-container'>
+                    <div>
+                        <div><img src='http://localhost:5123/uploads/facebook_base_profile.png' /></div>
+                        <p>여기가 제목 들어갈듯?</p>
+                    </div>
                     <p className='content'>계단이 있는 줄 몰랐어요</p>
                     <video controls loop className='video-container'>
                         <source src="http://localhost:5123/uploads/testvideo.mp4" type="video/mp4" />
@@ -32,13 +36,13 @@ const Main = () => {
                 </div>
                 <div className='card-container'>
                     <p className='content'>계단이 있는 줄 몰랐어요</p>
-                    <video muted autoPlay loop className='video-container'>
+                    <video controls loop className='video-container'>
                         <source src="http://localhost:5123/uploads/testvideo.mp4" type="video/mp4" />
                     </video>
                 </div>
                 <div className='card-container'>
                     <p className='content'>계단이 있는 줄 몰랐어요</p>
-                    <video muted autoPlay loop className='video-container'>
+                    <video controls loop className='video-container'>
                         <source src="http://localhost:5123/uploads/testvideo.mp4" type="video/mp4" />
                     </video>
                 </div>
