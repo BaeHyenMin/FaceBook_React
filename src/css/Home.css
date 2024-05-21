@@ -7,7 +7,7 @@
 .card-container{
     margin: 0 auto;
     margin-bottom: 30px;
-    width: 630px;
+    width: 640px;
     background-color: white;
     border: 1px solid #eeee;
     border-radius: 5px;
@@ -16,7 +16,7 @@
 
 .video-container {
     width: 100%;
-    max-height: 700px;
+    max-height: 628px;
     object-fit: cover;
 }
 
