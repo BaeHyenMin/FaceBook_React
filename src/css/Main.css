@@ -104,6 +104,33 @@
 
 .title-container > p{
     display: inline-block;
-    margin-top: 4.5px;
+    margin-top: 3.5px;
+}
+
+.card-footer{
+    width: 480px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    border-top: 1px solid gray;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.card-footer > button {
+    display: inline-block;
+    text-align: center;
+}
+
+.card-footer > button > p {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.card-footer > button > img {
+    width: 18px;
+    height: 18px;
+    display: inline-block;
 }
 
