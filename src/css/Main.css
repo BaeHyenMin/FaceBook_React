@@ -104,6 +104,75 @@
 
 .title-container > p{
     display: inline-block;
+<<<<<<< HEAD
     margin-top: 2px;
+=======
+    margin-top: 3.5px;
+>>>>>>> f26ba520719f15886d555a967e7cd04c7642fb91
 }
+
+.card-footer{
+    width: 480px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    border-top: 1px solid gray;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.card-footer > button {
+    display: inline-block;
+    text-align: center;
+}
+
+.card-footer > button > p {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.card-footer > button > img {
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+}
+
+
+
+.cmt-container{
+    margin-bottom: 20px;
+}
+
+
+.cmt-profile{
+    width: 30px;
+    float: left;
+    padding: 3px 0px 3px 0px;
+    margin-right: 10px;
+}
+
+.cmt-profile > img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+
+
+.cmt-container > p{
+    display: inline-block;
+    background-color: #f0f2f5;
+    max-width: 390px;
+    padding: 8px 12px 8px 12px;
+    border-radius: 30px;
+}
+
+.cmt-btn{
+    margin-right: 15px;
+}
+
+.cmt-input{
+    width: 318px;
+}
+
 
