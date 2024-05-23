@@ -126,7 +126,7 @@ const Main = () => {
                         <p>댓글</p>
                     </div>
                     <div className="modal-action">
-                        <input type="text" placeholder="댓글 작성..." className="input input-bordered cmt-input" />
+                        <input type="text" placeholder="댓글 작성..." className="input cmt-input" />
                         <form method="dialog">
                             <button className='btn cmt-btn'>작성</button>
                             <button className="btn">닫기</button>
