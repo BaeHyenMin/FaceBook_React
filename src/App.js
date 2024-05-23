@@ -1,6 +1,4 @@
 import './App.css';
-import Main from './component/main/main';
-import SignIn from './component/signIn/signIn';
 // import Main from './component/main/main';
 // import SignIn from './component/signIn/signIn';
 import Main from './component/Main/main'
