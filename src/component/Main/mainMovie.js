@@ -1,5 +1,13 @@
+import Cmt from './cmt';
+
 function mainMovie() {
+    
+    const cmtOnclick = (e) =>{
+            
+    }
     return (
+
+  
         <div>
             <section className='home'>
                 <div className='card-container'>

@@ -90,11 +90,6 @@ const Main = () => {
                             </div>
                         </div>
                     </div>
-
-
-
-
-
                     <div className='card-footer'>
                         <button ><img src='http://localhost:5123/uploads/facebook_favorite_before.png' alt='이미지없음' /> <p>좋아요</p></button>
                         <button onClick={() => document.getElementById('my_modal_1').showModal()}><img src='http://localhost:5123/uploads/comment.png' /> <p>댓글</p></button>
@@ -103,37 +98,7 @@ const Main = () => {
                 </div>
             </section>
 
-            <dialog id="my_modal_1" className="modal">
-                <div className="modal-box">
-                    <div className='cmt-container'>
-                        <div className='cmt-profile'><img src='http://localhost:5123/uploads/facebook_base_profile.png' alt='이미지없음' /></div>
-                        <p>댓글 길게 한번 해보자! 댓글 길게 한번 해보자! 댓글 길게 한번 해보자! 댓글 길게 한번 해보자!</p>
-                    </div>
-                    <div className='cmt-container'>
-                        <div className='cmt-profile'><img src='http://localhost:5123/uploads/facebook_base_profile.png' alt='이미지없음' /></div>
-                        <p>댓글</p>
-                    </div>
-                    <div className='cmt-container'>
-                        <div className='cmt-profile'><img src='http://localhost:5123/uploads/facebook_base_profile.png' alt='이미지없음' /></div>
-                        <p>댓글</p>
-                    </div>
-                    <div className='cmt-container'>
-                        <div className='cmt-profile'><img src='http://localhost:5123/uploads/facebook_base_profile.png' alt='이미지없음' /></div>
-                        <p>댓글</p>
-                    </div>
-                    <div className='cmt-container'>
-                        <div className='cmt-profile'><img src='http://localhost:5123/uploads/facebook_base_profile.png' alt='이미지없음' /></div>
-                        <p>댓글</p>
-                    </div>
-                    <div className="modal-action">
-                        <input type="text" placeholder="댓글 작성..." className="input cmt-input" />
-                        <form method="dialog">
-                            <button className='btn cmt-btn'>작성</button>
-                            <button className="btn">닫기</button>
-                        </form>
-                    </div>
-                </div>
-            </dialog>
+          
         </div>
     )
 }
