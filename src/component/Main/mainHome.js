@@ -1,6 +1,14 @@
-import React from 'react';
+import {useState} from 'react';
+import Cmt from '../main/cmt';
 import '../../css/MainHome.css'
-const Main = () => {
+const MainHome = () => {
+
+    const [showModal, setShowModal] = useState(false);
+
+
+    const cmtOnclick = (e) =>{
+             setShowModal(true);
+    }
     return (
         <div>
             <section className='home'>
@@ -44,7 +52,7 @@ const Main = () => {
                     </div>
                     <div className='card-footer'>
                         <button ><img src='http://localhost:5123/uploads/facebook_favorite_before.png' alt='이미지없음' /> <p>좋아요</p></button>
-                        <button onClick={() => document.getElementById('my_modal_1').showModal()}><img src='http://localhost:5123/uploads/comment.png' /> <p>댓글</p></button>
+                        <button onClick={cmtOnclick}><img src='http://localhost:5123/uploads/comment.png' /> <p>댓글</p></button>
                         <button><img src='http://localhost:5123/uploads/siren.png' /> <p>신고</p></button>
                     </div>
                 </div>
@@ -92,15 +100,15 @@ const Main = () => {
                     </div>
                     <div className='card-footer'>
                         <button ><img src='http://localhost:5123/uploads/facebook_favorite_before.png' alt='이미지없음' /> <p>좋아요</p></button>
-                        <button onClick={() => document.getElementById('my_modal_1').showModal()}><img src='http://localhost:5123/uploads/comment.png' /> <p>댓글</p></button>
+                        <button onClick={cmtOnclick}><img src='http://localhost:5123/uploads/comment.png' /> <p>댓글</p></button>
                         <button><img src='http://localhost:5123/uploads/siren.png' /> <p>신고</p></button>
                     </div>
                 </div>
             </section>
-
+            {showModal && <Cmt />}
           
         </div>
     )
 }
 
-export default Main;
+export default MainHome;
