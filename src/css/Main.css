@@ -85,6 +85,11 @@
     height: 30px;
 }
 
+.usr-img{
+    width: 30px;
+    height: 30px;
+}
+
 
 .title-container{
     margin-bottom: 20px;
@@ -171,4 +176,8 @@
     width: 315px;
 }
 
+.login-modal-input{
+    width: 400PX;
+    margin-top: 30PX;
+}
 
