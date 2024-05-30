@@ -181,3 +181,53 @@
     margin-top: 30PX;
 }
 
+input,div,textarea{
+    box-sizing: border-box;
+}
+
+label{
+    vertical-align: text-top;
+}
+
+
+
+.white-box{
+    width: 100%;
+    max-width: 80%;
+    background-color: white;
+    padding: 40px;
+    margin: auto;
+}
+
+.w100{
+    width: 100%;
+    padding: 20px;
+}
+
+.w100-input{
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.w50{
+    width: 50%;
+    float: left;
+    padding: 20px;
+}
+
+
+
+.sub-btn{
+    float: right;
+    width: 15%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: orange;
+    color: white;
+    position: relative;
+    top: -5px;
+}
+
